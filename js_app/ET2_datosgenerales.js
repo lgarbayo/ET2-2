@@ -1,0 +1,1 @@
+datosgenerales = Array('Garbayo Fernández Luis','Recuperacion ET2', '40');

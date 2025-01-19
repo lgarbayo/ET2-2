@@ -1,0 +1,17 @@
+ `CodigoL` int(11) NOT NULL : dígitos min 1 max 11 autoincremental
+  `AutoresL` varchar(200) NOT NULL DEFAULT '' : alfanuméricos con espacios con acentos con ñ y los siguientes signos de puntuación .,;:-
+                                                min 10 max 200
+  `TituloL` varchar(100) NOT NULL DEFAULT '' : alfanuméricos con espacios con acentos con ñ y los siguientes signos de puntuación .,;:-
+                                                min 5 max 100
+  `ISBN` varchar(13) NOT NULL DEFAULT '' : digitos tamaño exacto 13 caracteres
+  `PagIniL` varchar(4) NOT NULL : digitos min 1 max 4
+  `PagFinL` varchar(4) NOT NULL : digitos min 1 max 4
+  `VolumenL` varchar(4) NOT NULL : digitos min 1 max 4
+  `EditorialL` varchar(100) NOT NULL : alfabéticos con espacios con acentos con ñ
+                                        min 10 max 100
+  `FechaPublicacionL` date NOT NULL DEFAULT '0000-00-00' : digitos en formato 'yyyy-mm-dd' ('0000-00-00)
+  `EditorL` varchar(100) NOT NULL : alfabéticos con espacios con acentos con ñ
+                                        min 10 max 100
+  `PaisEdicionL` varchar(20) NOT NULL DEFAULT '' : alfabéticos con espacios con acentos con ñ
+                                        min 4 max 20
+  `archivopdfL` varchar(20) NOT NULL DEFAULT '' : alfabéticos sin acentos ni ñ ni espacios con punto min 5 max 20. Solo pdf y tamaño de fichero menor de 500000 bytes
